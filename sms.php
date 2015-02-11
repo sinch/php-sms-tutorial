@@ -12,11 +12,15 @@ curl_setopt($ch, CURLOPT_POSTFIELDS, $data);
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
 curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
 curl_setopt($ch, CURLOPT_HTTPHEADER, array('Content-Type: application/json'));
+
 $result = curl_exec($ch);
+
 if(curl_errno($ch)) {
-echo 'Curl error: ' . curl_error($ch);
+	echo 'Curl error: ' . curl_error($ch);
 } else {
-echo $result;
+	echo $result;
 }
+
 curl_close($ch);
+
 ?>

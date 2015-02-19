@@ -1,6 +1,6 @@
 #Send SMS in Php
 
-Use the script below to send an SMS in php. 
+Use the script below to send an SMS in PHP. 
 
 ##Setup
 1. Create a Sinch developer account at [sinch.com/signup](https://www.sinch.com/signup)

@@ -1,4 +1,4 @@
-#Send SMS in Php
+#Send SMS in PHP
 
 Use the script below to send an SMS in PHP. 
 

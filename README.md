@@ -12,12 +12,13 @@ Use the script below to send an SMS in PHP.
 ```
 <?php    
 $key = "your_app_key";    
-$secret = "your_app_secret";    
+$secret = "your_app_secret"; 
+$phone_number = "your_phone_number";
 	 
 $user = "application\\" . $key . ":" . $secret;    
 $message = array("message"=>"Test");    
 $data = json_encode($message);    
-$ch = curl_init('https://messagingapi.sinch.com/v1/sms/+16507141052');    
+$ch = curl_init('https://messagingapi.sinch.com/v1/sms/' . $phone_number);    
 curl_setopt($ch, CURLOPT_POST, true);    
 curl_setopt($ch, CURLOPT_USERPWD,$user);    
 curl_setopt($ch, CURLOPT_POSTFIELDS, $data);    

@@ -1,6 +1,6 @@
 #Send SMS in PHP
 
-Use the script below to send an SMS in PHP. 
+Sending SMS from applications is more popular then ever, and this small script will enable you to send SMS in PHP. 
 
 ##Setup
 1. Create a Sinch developer account at [sinch.com/signup](https://www.sinch.com/signup)
@@ -45,5 +45,4 @@ Once you've put your app key and secret into the above script, run it from the c
 	php name_of_script_file.php
 
 ##Note About Authentication
-Please note that using basic authentication (as shown above) is only supported in Sinch sandbox applications. For production apps, we require that you sign your requests. Tutorial coming soon!
-
+Please note that using basic authentication (as shown above) is only supported in Sinch sandbox applications. For production apps, we require that you sign your requests. To sign your requests in PHP, take a look at [this tutorial(https://www.sinch.com/tutorials/authentication-php-sinch-javascript-sdk/). 

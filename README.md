@@ -43,6 +43,8 @@ curl_close($ch);
 Once you've put your app key and secret into the above script, run it from the command line using:
 
 	php name_of_script_file.php
+	
+![send sms php](send-sms-php.png)
 
 ##Note About Authentication
 Please note that using basic authentication (as shown above) is only supported in Sinch sandbox applications. For production apps, we require that you sign your requests. To sign your requests in PHP, take a look at [this tutorial(https://www.sinch.com/tutorials/authentication-php-sinch-javascript-sdk/). 
